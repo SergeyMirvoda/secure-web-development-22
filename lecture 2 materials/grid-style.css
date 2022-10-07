@@ -1,0 +1,51 @@
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid
+*/
+body {
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas:
+    "header nav"
+    "ct ct"
+}
+header {
+  grid-area: header;
+  justify-self: left;
+  align-self: end;
+}
+nav {
+  grid-area: nav;
+  justify-self: right;
+  align-self: end;
+}
+nav a {
+  text-align: right;
+}
+article {
+  grid-area: ct;
+  border-top: 2px solid gray;
+}
+/*
+Responsive design
+*/
+
+@media screen and (max-width: 430px) {
+  body {
+    grid-template-columns: auto;
+    grid-template-rows: minmax(40px, auto) minmax(30px, auto) auto auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "ct"
+  }
+  header, nav {
+    text-align: center;
+    justify-self: center;
+  }
+  nav a {
+    margin: 0 10px;
+  }
+}
+

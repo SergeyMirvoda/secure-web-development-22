@@ -1,0 +1,37 @@
+body { 
+    margin: 0 auto; 
+    max-width: 700px;
+    min-width: 0; 
+    padding: 0 10px 25px; 
+    font-family: "Helvetica", "Arial", sans-serif; 
+  }
+  h2 { 
+    margin-top: 1em;
+    padding-top: 1em; 
+  } 
+  nav a { 
+    margin-left: 20px; 
+  }
+  body { 
+    color: rgb(88, 23, 23); 
+  } 
+  h1, h2, strong { 
+    color: rgb(17, 19, 2); 
+  }
+  header { 
+    margin: 0px; font-size: 23px; 
+  } 
+  article { 
+    font-size: 16px; 
+  } 
+  nav { 
+    font-size: 18px; letter-spacing: 1px; 
+  } 
+  h1 { 
+    font-size: 26px; 
+  } 
+  h2 { 
+    font-size: 23px; 
+  }
+  a { color: #ffa64d; }
+  
