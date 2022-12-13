@@ -26,7 +26,7 @@
 11. Сохранить отчёт в свой репозиторий
 
 Полезные ссылки
-1. lecture 5 (cross site scripting).pptx lecture 6 (cross site scripting cont.).pptx
+1. lecture 7 (cross site scripting).pptx lecture 8 (cross site scripting cont.).pptx
 2. https://owasp.org/www-community/Types_of_Cross-Site_Scripting
 3. https://www.ptsecurity.com/ww-en/analytics/knowledge-base/what-is-a-cross-site-scripting-xss-attack/
 4. https://habr.com/ru/post/511318/
